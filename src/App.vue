@@ -28,6 +28,7 @@ export default {
   color: white;
   background-color: black;
   overflow-x: hidden;
+  height: 100vh;
 }
 #head{
   height: 60px;
