@@ -29,36 +29,13 @@ export default {
   color: white;
 }
 header{
-  background: #4981ac;
-  height: 80px;
+  background: black;
+  height: 70px;
   width: 100%;
   color:white;
 }
 header h3{
-  line-height: 80px;
+  line-height: 70px;
 }
-.player{
-  position: relative;
-  width: 350px;
-  background-color: #f1f3f4;
-  box-shadow:0 50px 80px rgba(0,0,0,0.25);
-}
-.player .imgBx{
-    position: relative;
-    width: 100%;
-    height: 350px;
-}
-.player  .imgBx img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.sounds{
-  text-align: center;
-  font-weight: bolder;
-  font-size: 26px;
-}
+
 </style>
