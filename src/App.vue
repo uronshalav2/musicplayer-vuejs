@@ -1,10 +1,10 @@
 <template>
 <div id="app">
-    <header>
-      <h3>Musical</h3>
-    </header>
+
     <main>
-      <SongList/>
+      <div class="container p-3 bg-black m-auto" id="app-container">
+      <SongList/>        
+      </div>
     </main>
   </div>
 </template>
@@ -25,17 +25,24 @@ export default {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: white;
+  background-color: black;
+  overflow-x: hidden;
 }
-header{
-  background: black;
-  height: 70px;
-  width: 100%;
-  color:white;
+#head{
+  height: 60px;
+  background-color: black;
+  width: 400px;
+  border-bottom: 0.8px solid #dc3545;
 }
-header h3{
-  line-height: 70px;
+#head h2{
+  line-height: 60px;
+  font-weight: light;
+}
+
+#app-container{
+  height: 842px;
+  width: 400px;
 }
 
 </style>
