@@ -1,7 +1,7 @@
 <template>
   <div v-if="!isPlayerVisible">
     <div class="container mb-3" id="head">
-      <h2 class="text-danger">Musical</h2>
+      <h2 class="text-danger">Musical.</h2>
     </div>
     <div
       v-for="(song, songIndex) in list"

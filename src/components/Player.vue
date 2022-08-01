@@ -1,6 +1,6 @@
 <template>
 <audio v-bind:src="song.songSrc" preload="auto" autoplay ref="audioPlayer"/>
-  <div id="player">
+  <div id="player d-flex justify-content-center">
     <div
       class="
         d-flex
@@ -12,7 +12,7 @@
       "
     >
       <Button v-on:click="goback" class="btn btn-danger" id="backbutton">Back</Button>
-      <div class="text-danger" id="titletwo">Musical</div>
+      <div class="text-danger" id="titletwo">Musical.</div>
     </div>
     <div>
       <img class="img-fluid" v-bind:src="song.src" />

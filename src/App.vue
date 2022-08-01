@@ -2,7 +2,7 @@
 <div id="app">
 
     <main>
-      <div class="container p-3 bg-black m-auto" id="app-container">
+      <div class="container p-3 me-auto bg-black" id="app-container">
       <SongList/>        
       </div>
     </main>
@@ -44,6 +44,11 @@ export default {
 #app-container{
   height: 842px;
   width: 400px;
+}
+@media only screen and (max-width: 667px){
+  #app-container{
+    width:350px;
+  }
 }
 
 </style>
